@@ -1,7 +1,0 @@
-# Ignore Tailwind CSS files
-/node_modules/
-/.cache/
-/tailwind.config.js
-
-# Ignore JSON files
-*.json

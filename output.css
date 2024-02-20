@@ -804,7 +804,7 @@ video {
 }
 
 .bg-banner {
-  background-image: url('/img/banner.jpg');
+  background-image: url('./img/banner.jpg');
 }
 
 .bg-cover {
