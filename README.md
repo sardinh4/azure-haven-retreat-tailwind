@@ -1,4 +1,4 @@
-## Home page responsiva de um site de reserva de hotéi, utilizando Tailwind CSS.
+## Home page responsiva de um site de reserva de hotéis, utilizando Tailwind CSS.
 
 🛠️ Tecnologias Utilizadas: HTML e Tailwind CSS
 
