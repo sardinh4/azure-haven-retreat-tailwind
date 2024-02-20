@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Haven Retreat</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 max-w-[100vw]">
+
+    <!-- HEADER -->
+    <header class="bg-teal-800 px-10 md:px-24 h-[75px] w-full absolute">
+        <div class="py-3 h-full flex items-center justify-between">
+            <img class="h-full" src="./img/logotipo-h.svg"
+                alt="logotipo da Azure Haven Retreat, a junção do nome mais o símbulo em amarelo, com mfundo azul escuro, de uma rede amarrada em duas palmeiras e um sol no fundo">
+            <ul class=" text-gray-100 text-sm hidden md:flex md:items-center">
+                <li> <a class="hover:text-yellow-retreat hover:underline mr-4" href="#">Como reservar</a> </li>
+                <li> <a class="hover:text-yellow-retreat hover:underline mr-4" href="#">Sobre nós</a> </li>
+                <li> <a class="hover:text-yellow-retreat hover:underline mr-4" href="#">Informações</a> </li>
+                <li> <a class="hover:text-yellow-retreat hover:underline" href="#">Contato</a> </li>
+            </ul>
+            <button type="menu" class="text-xl md:hidden"><i class="fa-solid fa-bars"
+                    style="color: #ffffff;"></i></button>
+        </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- BANNER -->
+    <div class="h-screen min-h-[600px] max-h-[1024px] pt-[75px] bg-banner bg-cover bg-center">
+
+        <!-- ÁREA DE PESQUISA -->
+
+        <div class=" h-full w-full px-10 flex items-center justify-center md:px-24">
+            <div class="w-full flex flex-col items-center justify-center space-y-10">
+                <div class="text-center h-auto w-full ">
+                    <h1
+                        class="bg-gray-200 text-lg font-bold px-4 py-2 mx-8 -mb-4 relative rounded-md sm:mx-20 md:text-3xl md:font-semibold md:mx-32 md:-mb-2 lg:py-4 xl:text-5xl 2xl:py-6 2xl:-mb-6 2xl:text-7xl">
+                        Aonde
+                        você
+                        quer ir?</h1>
+                    <h2
+                        class="bg-teal-600 pt-6 pb-3 px-4 rounded-md w-full md:text-xl md:py-3 lg:py-4 xl:text-2xl 2xl:py-8 2xl:text-5xl">
+                        Escolha o estado e a cidade para
+                        achar os
+                        melhores resorts.</h2>
+                </div>
+
+                <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="inline-block w-fit bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                        <select class=" bg-gray-50 pr-3 xl:pr-20 xl:py-2 2xl:text-xl">
+                            <option value="" disabled selected hidden>Escolha o Estado</option>
+                        </select>
+                    </div>
+                    <div class="inline-block w-fit bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                        <select class=" bg-gray-50 pr-3 xl:pr-20 xl:py-2 2xl:text-xl">
+                            <option value="" disabled selected hidden>Escolha a cidade</option>
+                        </select>
+                    </div>
+                    <button type="submit"
+                        class="text-gray-800 bg-yellow-retreat font-medium px-3 py-2 rounded hover:px-6 hover:-ml-2 md:hover:ml-0 md:col-span-2 lg:col-span-1 xl:py-2 2xl:text-xll"><i
+                            class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar resorts</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- /ÁREA DE PESQUISA -->
+
+    </div>
+
+    <!-- /BANNER -->
+
+
+    <!-- MAIN -->
+    <div class="px-10 md:px-24">
+
+        <!-- DESTAQUES -->
+
+        <div class=" text-gray-600">
+            <div class="py-12 lg:py-20">
+                <div class="flex flex-col-reverse lg:flex-row">
+                    <div class=" flex flex-col items-center space-y-8 lg:justify-between lg:items-start">
+                        <div class="flex flex-col items-center justify-center lg:items-start lg:pr-20">
+                            <h3 class="text-sm text-gray-400 font-medium  lg:text-lg 2xl:text-4xl">RESORT EM DESTAQUE
+                            </h3>
+                            <h2 class="text-lg text-gray-800 font-semibold mt-2 lg:text-4xl 2xl:text-6xl">Ecoresort Praia</h2>
+                            <h4 class="text-sm text-gray-400 font-medium mt-2 lg:text-lg 2xl:text-4xl">Hotel qualidade 5
+                                estrelas</h4>
+                            <p class="mt-4 text-sm text-center lg:text-left lg:text-md">Explore um refúgio paradisíaco
+                                no Ecoresort Praia, onde o luxo
+                                encontra
+                                a natureza em perfeita harmonia. Situado em uma das praias mais deslumbrantes do Brasil,
+                                nosso resort oferece uma experiência única, onde cada detalhe é cuidadosamente planejado
+                                para proporcionar o máximo de conforto e sofisticação.
+                            </p>
+                            <p class="mt-4 text-sm text-center lg:text-left lg:text-md">Desfrute de acomodações de
+                                classe mundial, serviços impecáveis e uma
+                                variedade de atividades para todos os gostos. Reserve agora e embarque em uma jornada de
+                                descoberta e indulgência no Ecoresort Praia.
+                            </p>
+                        </div>
+                        <a href="#"
+                            class="text-gray-800 bg-yellow-retreat font-medium px-4 py-3 rounded w-fit hover:space-x-4  2xl:py-6 2xl:px-8"><span>Solicitar
+                                reserva</span> <i class="fa-solid fa-arrow-right ml-2 2xl:ml-6"></i>
+                        </a>
+                    </div>
+
+                    <img class=" w-full h-auto ml-auto rounded-md mb-6 lg:mb-0 lg:max-w-[40vw]"
+                        src="./img/resort-destaque.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- /DESTAQUES -->
+
+        <!-- RESORT GRID -->
+
+        <div class="flex flex-col items-center justify-center h-auto w-auto">
+            <h3 class="text-2xl text-gray-500 font-semibold text-center mb-8 lg:text-4xl 2xl:text-6xl">Conheça mais
+                resorts</h3>
+
+            <div class="grid grid-cols-1 grid-rows-4 gap-6 max-h-[80vh] text-sm md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-4">
+                <a href="#" class="relative md:col-span-2 md:row-span-2">
+                    <h3
+                        class="font-semibold bg-white absolute bg-opacity-80 bottom-3 left-3 mr-3 px-4 py-1 rounded-md xl:text-2xl 2xl:text-4xl xl:bottom-8 xl:left-8 xl:mr-8 xl:px-8 xl:py-6">
+                        Beach
+                        Park Resort</h3>
+                    <img class=" h-full w-full object-cover object-bottom rounded-md " src="./img/resort-01.jpg" alt="">
+                </a>
+                <a href="#" class=" relative md:row-span-2 lg:row-span-1 lg:col-span-2">
+                    <h3
+                        class="font-semibold bg-white absolute bg-opacity-80 bottom-3 left-3 mr-3 px-4 py-1 rounded-md xl:text-2xl 2xl:text-4xl xl:bottom-8 xl:left-8 xl:mr-8 xl:px-8 xl:py-6">
+                        Salinas
+                        do Maragogi Resort</h3>
+                    <img class="h-full w-full object-cover rounded-md" src="./img/resort-02.jpg" alt="">
+                </a>
+                <a href="#" class="relative">
+                    <h3
+                        class="font-semibold bg-white absolute bg-opacity-80 bottom-3 left-3 mr-3 px-4 py-1 rounded-md xl:text-2xl 2xl:text-4xl xl:bottom-8 xl:left-8 xl:mr-8 xl:px-8 xl:py-6">
+                        Grand
+                        Palladium</h3>
+                    <img class="h-full w-full object-cover object-bottom rounded-md" src="./img/resort-03.jpg" alt="">
+                </a>
+                <a href="#" class="relative">
+                    <h3
+                        class="font-semibold bg-white absolute bg-opacity-80 bottom-3 left-3 mr-3 px-4 py-1 rounded-md xl:text-2xl 2xl:text-4xl xl:bottom-8 xl:left-8 xl:mr-8 xl:px-8 xl:py-6">
+                        Arraial
+                        d'Ajuda Eco Resort</h3>
+                    <img class="h-full w-full object-cover object-bottom rounded-md" src="./img/resort-04.jpg" alt="">
+                </a>
+
+            </div>
+        </div>
+
+        <!-- /RESORT GRID -->
+
+        <!-- FORM SURCH -->
+        <div class="mx-auto my-20 h-auto w-full flex items-center justify-center">
+            <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="inline-block w-fit bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                    <select class=" bg-gray-50 pr-3 xl:pr-20 xl:py-2 2xl:text-xl">
+                        <option value="" disabled selected hidden>Escolha o Estado</option>
+                    </select>
+                </div>
+                <div class="inline-block w-fit bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                    <select class=" bg-gray-50 pr-3 xl:pr-20 xl:py-2 2xl:text-xl">
+                        <option value="" disabled selected hidden>Escolha a cidade</option>
+                    </select>
+                </div>
+                <button type="submit"
+                    class="text-gray-800 bg-yellow-retreat font-medium px-3 py-2 rounded hover:px-6 hover:-ml-2 md:hover:ml-0 md:col-span-2 lg:col-span-1 xl:py-2 2xl:text-xll"><i
+                        class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar resorts</button>
+            </form>
+        </div>
+        <!-- FORM /SURCH -->
+    </div>
+
+    <!-- /MAIN -->
+
+    <!-- FOOTER -->
+    <div class="border-t border-gray-400 bg-teal-800 w-full py-4 px-10 md:px-24 ">
+        <div class="mx-auto w-full h-[70px] py-4 flex items-baseline justify-between">
+            <img class="h-full" src="./img/logotipo-h.svg"
+                alt="logotipo da Azure Haven Retreat, a junção do nome mais o símbulo em amarelo, com mfundo azul escuro, de uma rede amarrada em duas palmeiras e um sol no fundo">
+
+            <div class="flex items-center justify-center space-x-4 text-xl">
+                <a href="#"><i class="fa-brands fa-facebook" style="color: #fff;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #fff;"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope" style="color: #fff;"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- /FOOTER -->
+
+
+
+    <script src="https://kit.fontawesome.com/041dbc8823.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
